@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CreaTive NiKx..!!!</title>
+    <link rel="icon" href="img/logo1.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo1.png" alt="Error" width="40px" height="40px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#aboutus">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">C++</a></li>
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="fadeIn.html">More</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#client-section">Recruiters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        $(document).ready(function () {
+            $("#navbarDropdown").click(function () {
+                $(".dropdown-menu").slideDown(5000);
+            });
+            $("").click(function () {
+                $("").stop();
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".h-primary").click(function () {
+                $(".h-primary").css("color", "red")
+                    .slideUp(1000)
+                    .slideDown(1000);
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("h3").on({
+                mouseenter: function () {
+                    $(this).css("background-color", "red");
+                },
+                mouseleave: function () {
+                    $(this).css("background-color", "lightblue");
+                },
+                click: function () {
+                    $(this).css("background-color", "yellow");
+                }
+            });
+        });
+    </script>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to CreaTive NiKx</h1>
+        <h3>- A School of Coding.!</h3>
+    </section>
+
+    <div class="row m10_0" id="aboutus">
+        <div class="content-header">About CreaTive NiKx (<a href="#!">- A School of Coding.!</a>)</div>
+        <div class="clearfix"></div>
+        <div class="col-md-6 col-sm-6 col-xs-12" id="abouttext">
+            <p>We help organizations of all types and sizes prepare for the path ahead — wherever it leads. Our curated
+                collection of business and technical courses help companies, governments, and nonprofits go further by
+                placing learning at the center of their strategies.</p>
+
+            <p>Our mission :-
+                There are three commitments we've made to the world. We've been grounded by these since day one: <br>
+                -Increase access to high-quality education for everyone, everywhere <br>
+                -Enhance teaching and learning on campus and online<br>
+                -Advance teaching and learning through research</p>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12" align="center">
+            <img src="img/about11.jpg" class="img-responsive" alt="Education Website">
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12" id="bord">
+            <div class="content-bottom-bg">
+                <img src="img/about2.jpg" class="img-responsive" alt="Students">
+                <div class="content-bottom-bg-p">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12" id="bord1">
+            <div class="content-bottom-bg">
+                <img src="img/about3.jpg" class="img-responsive" alt="Students">
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12" id="bord">
+            <div class="content-bottom-bg">
+                <img src="img/about4.avif" class="img-responsive" alt="Students">
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#bord").click(function () {
+                $(this).hide();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#bord1").dblclick(function () {
+                $(this).hide();
+            });
+        });
+    </script>
+
+    <section id="services-container">
+        <h1 class="h1-primary center">Courses we Offer :-</h1>
+
+        <div id="services">
+            <div class="box" id="div1">
+                <img src="img/cpp1.jpg" alt="Uanble to load img">
+                <h2 class="h1-secondary center" id="courses">OOP's using C++</h2>
+                <p class="center">C++ is an object-oriented programming language that is simple and modern and a
+                    general-purpose programming language for application development. This can be great for students who
+                    wish to enter the Object-Oriented Programming.</p>
+            </div>
+            <div class="box" id="div2">
+                <img src="img/java.jpg" alt="Uanble to load img">
+                <h2 class="h1-secondary center" id="courses">Java</h2>
+                <p class="center">Java Course is about helping students learn the concepts of programming and help them
+                    solve complex problems. This course requires patience, analytical thinking ability, attention to
+                    detail as they are essential in becoming a successful programmer.</p>
+            </div>
+            <div class="box" id="div3">
+                <img src="img/python.jpg" alt="Uanble to load img">
+                <h2 class="h1-secondary center" id="courses">Python</h2>
+                <p class="center">Python is a versatile computer programming language that is highly suitable for tasks
+                    ranging from scripts to large systems. The programming course highlights best practices, including
+                    unit testing, version control, and optional idioms. Any student can pursue the Python programming
+                    language course. </p>
+            </div>
+        </div>
+        <button1 id="fadeOut">Click here to Hide Courses Details</button1><br><br>
+        <h4 id="fadeIn"> <a href="fadeIn.html" target="_blank">Click here for More Details</a></h4>
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $("button1").click(function () {
+                $("#div1").fadeOut();
+                $("#div2").fadeOut("slow");
+                $("#div3").fadeOut(3000);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#div4").fadeIn();
+                $("#div5").fadeIn("slow");
+                $("#div6").fadeIn(3000);
+            });
+        });
+    </script>
+
+
+
+    <section id="client-section">
+        <h1 class="h2-primary center"> Our Top Recruiters :-</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/Meta-Logo.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/Amazon.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/microsoft.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/google.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/skype.png" alt="">
+            </div>
+        </div>
+        <h6 id="hideshow">Click to Hide/Show</h6>
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $("h6").click(function () {
+                $(".client-item").toggle();
+            });
+        });
+    </script>
+
+    <section id="contact">
+        <h1 class="h2-primary center">Contact Us :-</h1>
+        <div id="contact-box">
+            <form action="contactus_form.php" method="post">
+                <label for="name">Name :-</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Enter your Name">
+                <label for="name">Email :-</label>
+                <input type="email" name="name" class="form-control" id="email" placeholder="Enter your Email">
+                <label for="name">Phone Number :-</label>
+                <input type="phone" name="name" class="form-control" id="phone" placeholder="Enter your Phone number">
+                <label for="message">Message :-</label>
+                <textarea id="p1" name="name" class="form-control" id="message" cols="4" rows="4"
+                    placeholder="Type your message here "></textarea>
+                <button class="btn1">Submit Form</button>
+            </form>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+            $("#p1").mouseenter(function () {
+                alert("You entered p1!");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#p1").mouseleave(function () {
+                alert("Bye! You now leave p1!");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("input").focus(function () {
+                $(this).css("background-color", "yellow");
+            });
+            $("input").blur(function () {
+                $(this).css("background-color", "green");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#name").mousedown(function () {
+                alert("Mouse down over p1!");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#email").mouseup(function () {
+                alert("Mouse up over p1!");
+            });
+        });
+    </script>
+
+    <footer class="center">
+        &copy; Copyright &nbsp;: &nbsp; Nikhil Shriram Naikwade . All Rights Reserved.!!!
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

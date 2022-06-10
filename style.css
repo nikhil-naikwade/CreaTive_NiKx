@@ -1,0 +1,247 @@
+#landingPg {
+    background-image: url("img/img7.jpg");
+    background-size: 1600px 700px;
+    background-attachment: fixed;
+    background-repeat: initial;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 548px;
+}
+
+#home::before {
+    content: " ";
+    position: absolute;
+    background: url('img/img2.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    width: 1519px;
+    height: 748px;
+    z-index: -1;
+    opacity: 0.88;
+}
+
+.h-primary {
+    font-size: 77px;
+    font-style: italic;
+}
+
+
+#services {
+    margin: 17px 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 5px 14px;
+    border-radius: 25px;
+    background-color: rgb(242 244 244);
+}
+
+#services .box img {
+    height: 175px;
+    margin: auto;
+    display: block;
+}
+
+#bord {
+    border: #0099dd;
+    border-radius: 25px;
+}
+
+#services .box p {
+    font-family: 'Balthazar', serif;
+}
+
+.h-secondary {
+    text-align: center;
+}
+
+.content-header {
+    color: #000;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 140px;
+    padding: 25px 10px 15px;
+    font-weight: bold;
+}
+
+.content-header a {
+    color: #0099dd;
+    text-decoration: none;
+}
+
+.content-header a:hover {
+    color: #069;
+}
+
+p {
+    line-height: 26px;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    padding: 12px 30px;
+    margin: 10px;
+}
+
+.img-responsive {
+    width: 466px;
+    height: 299px;
+}
+
+#abouttext {
+    text-align: center;
+    align-items: center;
+}
+
+.content-bottom-bg {
+    background: #ebebeb;
+    padding: 0px 0px 20px;
+    margin: 20px 5px 20px;
+}
+
+.content-bottom-bg-header {
+    font-size: 18px;
+    padding: 0px 10px 15px;
+}
+
+.content-bottom-bg-p {
+    line-height: 24px;
+    padding: 0px 10px;
+}
+
+#client-section {
+    position: relative;
+    height: 240px;
+    padding-bottom: 8px;
+    margin-bottom: 2px;
+}
+
+#client-section img {
+    width: 160px;
+    padding: 13px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url(img/img1.jpg) no-repeat center center/cover;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    position: relative;
+    margin-top: 22px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('img/img6.jpg') no-repeat center center/cover;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
+    padding-top: 15px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#contact-box form {
+    width: 50%;
+}
+
+#contact-box label {
+    font-size: 1.2rem;
+    font-family: 'Balthazar', serif;
+}
+
+#contact-box .btn1 {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background: rgb(107, 159, 201);
+    color: rgb(2, 2, 2);
+    margin: 17px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 3px 20px;
+    margin-left: 316px;
+}
+
+#contact-box .btn1:hover {
+    background-color: rgb(94, 80, 80);
+    color: rgb(248, 246, 246);
+}
+
+.h2 {
+    margin-top: 50px;
+    padding-top: 120px;
+    padding-top: 20px;
+}
+
+#hideshow {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 9px 20px;
+}
+
+#fadeIn {
+    padding-left: 580px;
+}
+
+#fadeOut {
+    color: blue;
+    padding-left: 605px;
+}
+
+
+#courses {
+    align-items: center;
+    text-align: center;
+}
+
+.h1-primary {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.h2-primary {
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
